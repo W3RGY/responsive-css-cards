@@ -65,6 +65,7 @@
 	background-size: cover;
 	background-position: 0 0;
 	transition: transform calc(var(--d) * 1.5) var(--e);
+	will-change: transform;
   }
 
   .card:nth-child(1)::before {
